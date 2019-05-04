@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Arnold Zhou</title>
+		<link rel="icon" href="favicon.ico">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--Scripts-->
+		<!--Needed for jquery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!--typed.js-->
+		<script src="node_modules/typed.js/lib/typed.js" type="text/javascript"></script>
+		<!--created-->
+		<link rel="stylesheet" href="index.css">
+		<script src="index.js"></script>
+	</head>
+
+	
+	<body class="body-class">
+		<div id="intro-picture"></div>
+		<!--div id="intro-picture-container">
+			<svg preserveAspectRatio="xMinYMid">
+				<filter id="blurMe">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+				</filter>
+				<image filter="url(#blurMe)" xlink:href="./background.png"/>
+			</svg>
+		</div-->
+
+        <div id="intro-container">
+            <div>
+                <h1 id="name">Arnold Zhou</h1>
+				<hr />
+				<span id="typed"></span>
+            </div>
+        </div>
+        <div id="about-container">
+			<div class="circular-image">
+				<img src="Arnold.jpg" alt="Arnold" id="personal-pic" />
+			</div>
+			<div>
+				<h1>Hi, I'm Arnold.</h1>
+				<p>I’m a fourth year at the University of Michigan, Ann Arbor 
+					studying Life Science Informatics and Applied Statistics.</p>
+				<p>I’m also a software programmer mainly experienced in 
+					designing and developing software for not only the web 
+					but also Windows. From intuitive single-paged websites 
+					to complex, module-based data analysis tools, I strive 
+					to not only create beautiful applications but also beautiful 
+					code: concise, intuitive, and clean.</p>
+				<p>I love the process of bringing an application to life and the 
+					idea that no matter how perfect it may be, there is always work 
+					to be done in refactoring, updating, and expanding the scope of 
+					the project. The fast-paced and constantly growing field of technology 
+					excites me as I’m always looking for opportunities to learn and share 
+					this new knowledge. In the end, my goal is to create something exciting and beautiful.</p>
+				<p>On the chance that I’m not typing away, I’m probably deeply involved in photography, 
+					practicing my music prowess on the piano, or rock climbing.</p>
+			</div>
+			<div id="resume-button" onclick="window.open('Arnold Zhou Resume.pdf')">
+				<h1>Resume</h1>
+			</div>
+		</div>
+		<div id="skills-container">
+			<h1>Skills</h1>
+			<div>
+				<div>
+					<h2>Most Used Languages</h2>
+					<div>
+						<p>1. C++</p>
+						<p>2. Javascript/HTML5/CSS3</p>
+						<p>3. C#</p>
+						<p>4. C</p>
+						<p>5. Python</p>
+					</div>
+					<div>
+						<p>6. R</p>
+						<p>7. PHP</p>
+						<p>8. SQL</p>
+						<p>9. Matlab</p>
+					</div>
+				</div>
+				<div>
+					<h2>Important Frameworks</h2>
+					<p>Angular/Angular 4</p>
+					<p>.NET</p>
+					<p>WPF</p>
+					<p>Unity</p>
+				</div>
+				<div>
+					<h2>Major Tools</h2>
+					<p>Git/Bitbucket</p>
+					<p>Linux</p>
+					<p>Visual Studio/Visual Studio Code</p>
+					<p>Adobe Suite<p>
+				</div>
+			</div>
+		</div>
+		<div id="experience-container">
+			<h1>Work Experience</h1>
+			<hr />
+			<div>
+				<div>
+					<img src="QuickenLoans.png" alt="quickenloans" />
+				</div>
+				<div>
+					<p>•	Led implementation of an internal web email analysis site for all application owners resulting in a more efficient workflow for maintaining application errors</p>
+					<p>•	Refactored SQL storage designs of all on call groups and applications for better application stability</p>
+					<p>•	Coded alternating interactive animations and splash pages to promote holiday awareness based on time of year</p>
+				</div>
+				<div>
+					<img src="sparklogo.png" alt="spark" />
+				</div>
+				<div>
+					<p>•	Updating site features through creation of interactive and dynamic modules for a more modern design to be viewed by major sponsors</p>
+					<p>•	Oversee stability of the site through unit testing and data gathering from feedback</p>
+				</div>
+				<div>
+					<img src="AET Integration.png" alt="aetintegration" />
+				</div>
+				<div>
+					<p>•	Programmed customizable WPF graphing modules for the visualization of given welding data for use in major car companies</p>
+					<p>•	Optimized logic commands through multithreading to increase efficiency of saving and loading data</p>
+					<p>•	Rewrote the WPF application interface for more intuitive and useful data interpretation through analysis of the most popular features</p>					
+				</div>
+				<div>
+					<img src="UmichEECS.png" alt="UmichEECS" />
+				</div>
+				<div>
+					<p>•	Created a MATLAB data analysis program software to solve the nearest neighbor problem</p>
+					<p>•	Optimize processing times through code vectorization which improved processing speed by more than 20%.</p>
+				</div>
+			</div>
+		</div>
+		<div id="project-container">
+			<h1>Favorite Projects</h1>
+			<hr />
+			<div id="photo-website">
+				<h1>Arnold Zhou Photography</h1>
+				<div class="project-code-container experience-links" onclick="window.open('http://arnoldzhou.photos')">
+						<h1>Site</h1>
+					</div>
+				<div class="project-code-container experience-links" onclick="window.open('https://github.com/ahazhou/arnoldzhou.photography')">
+					<h1>Code</h1>
+				</div>
+				<img src="photowebsite.png" alt="photowebsite" />
+				<p>This website showcases the portfolio of Arnold Zhou Photography through interactive image displays that
+					dynamically interact with the browser through modern website design. It parses through a database of picture sets
+				    in order to present the most up to date portfolio, with the help of Ajax and python scripts.</p>
+				<div class="project-types-container">
+					<div>
+						<h1>HTML5/CSS3</h1>
+					</div>
+					<div>
+						<h1>Javascript</h1>
+					</div>
+					<div>
+						<h1>Python</h1>
+					</div>
+					<div>
+						<h1>PHP</h1>
+					</div>
+					<div>
+						<h1>Ajax</h1>
+					</div>
+					<div>
+						<h1>Amazon Web Services</h1>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div id="organizer-wpf">
+				<h1>The Organizer</h1>
+				<div class="project-code-container experience-links" onclick="window.open('https://github.com/ahazhou/The-Organizer')">
+					<h1>Code</h1>
+				</div>
+				<img src="TheOrganizer.png" alt="theorganizer" />
+				<p>The Organizer is a WPF project meant to help organization by creating custom special types
+					in a variety of methods in order to help produce a more customizable
+					checklist, resulting in a cleaner and more flexible organizing program.</p>
+				<div class="project-types-container">
+					<div>
+						<h1>WPF - Windows based applications</h1>
+					</div>
+					<div>
+						<h1>C#</h1>
+					</div>
+					<div>
+						<h1>MVVM</h1>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div id="rooms-unity">
+				<h1>Rooms</h1>
+				<div class="project-code-container experience-links" onclick="window.open('https://developer.att.com/blog/recap-virtual-reality-hackathon-and-workshop-in-boston-powered')">
+					<h1>Awards</h1>
+				</div>
+				<div class="project-code-container experience-links" onclick="window.open('https://github.com/ahazhou/Rooms-VR')">
+					<h1>Code</h1>
+				</div>
+				<img src="Rooms.png" alt="rooms" />
+				<p>The Rooms project is an award-winning Google Cardboard based application that focuses on the
+					usage of sight and sound in order to present an other-worldly experience, in honor
+					of Holloween. Ghosts, skeletons, and walls move as you're strapped to a chair, petrified with
+					your surroundings. This type of horror viewing experience is finally allievated with a jovial
+					carnival-like shooting game, with carnie music added to taste to wash away the scary nature of
+					the other rooms you have been transported through.</p>
+				<div class="project-types-container">
+					<div>
+						<h1>Unity3D Game Engine</h1>
+					</div>
+					<div>
+						<h1>Virtual Reality</h1>
+					</div>
+					<div>
+						<h1>Hackathon</h1>
+					</div>
+					<div>
+						<h1>C#</h1>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div id="jiffyprint">
+				<h1>Jiffy Print</h1>
+				<div class="project-code-container experience-links" onclick="window.open('https://devpost.com/software/jiffyprint')">
+					<h1>Awards</h1>
+				</div>
+				<img />
+				<p>Jiffy Print is an innovative and award-winning method of automatically sending user-submitted images to any Walgreens location to be printed. Hosted on
+					IBM-Bluemix, Jiffy Print uses not only a website to upload user data but also introduces a Chrome application so the user can submit an image
+					automatically but right clicking on an object.</p>
+				<div class="project-types-container">
+					<div>
+						<h1>HTML5/CSS3</h1>
+					</div>
+					<div>
+						<h1>Javascript</h1>
+					</div>
+					<div>
+						<h1>IBM-Bluemix</h1>
+					</div>
+					<div>
+						<h1>Walgreens API</h1>
+					</div>
+					<div>
+						<h1>Postmates API</h1>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div id="brickbreaker-arduino">
+				<h1>Brickbreaker Arduino Iteration</h1>
+				<div class="project-code-container experience-links" onclick="window.open('https://github.com/ahazhou/Arduino-Pong-Variation')">
+					<h1>Code</h1>
+				</div>
+				<img />
+				<p>The Brickbreaker Arduino Iteration is a spin on the classic brickbreaker game. Played on the arduino,
+					the player uses two paddles to hit a single ball with three lives and exponentially increasing difficulty
+					for each of the 5 levels. Throughout the levels, customized music plays, with increasing tempo as the game progresses
+					including animations in between death and level.</p>
+				<div class="project-types-container">
+					<div>
+						<h1>Arduino</h1>
+					</div>
+					<div>
+						<h1>C++</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contact-container">
+			<h1>Contact Me</h1>
+			<hr />
+			<h2>Phone:</h2>
+			<h3>248-953-8134</h3>
+			<h2>Email:</h2>
+			<h3>ahzhou@umich.edu</h3>
+			<div class="project-code-container" onclick="window.open('https://github.com/ahazhou')">
+				<h1>Github</h1>
+			</div>
+			<div class="project-code-container" onclick="window.open('https://linkedin.com/in/arnoldzhou')">
+				<h1>LinkedIn</h1>
+			</div>
+		</div>
+		<div id="copyright">
+			<h1>©  Arnold Zhou 2017</h1>
+		</div>
+	</body>
+</html>
